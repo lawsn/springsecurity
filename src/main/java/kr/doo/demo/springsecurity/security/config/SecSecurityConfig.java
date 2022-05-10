@@ -1,5 +1,8 @@
-package kr.doo.demo.springsecurity;
+package kr.doo.demo.springsecurity.security.config;
 
+import kr.doo.demo.springsecurity.security.CustomAccessDeniedHandler;
+import kr.doo.demo.springsecurity.security.CustomAuthenticationFailureHandler;
+import kr.doo.demo.springsecurity.security.CustomLogoutSuccessHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
